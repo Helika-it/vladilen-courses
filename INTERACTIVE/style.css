@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all .25s;
+  background: url("img/background.jpg") center no-repeat;
+  /* background: url("https://source.unsplash.com/1600x900/?nature") center no-repeat; */
+  color: white;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  border: 1px solid white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+h1, h3 {
+  animation: down 1s;
+}
+
+@keyframes down {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
